@@ -51,6 +51,18 @@
     <Compile Include="Ownership.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ICityRepository.cs" />
+    <Compile Include="Repository\ICompanyRepository.cs" />
+    <Compile Include="Repository\ICountryRepository.cs" />
+    <Compile Include="Repository\IEducationalEstablishmentRepository.cs" />
+    <Compile Include="Repository\IEducationRepository.cs" />
+    <Compile Include="Repository\IJobRepository.cs" />
+    <Compile Include="Repository\ILanguageRepository.cs" />
+    <Compile Include="Repository\ILivingPlaceRepository.cs" />
+    <Compile Include="Repository\IOwnershipRepository.cs" />
+    <Compile Include="Repository\IPersonRepository.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\IVisitRepository.cs" />
     <Compile Include="Visit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

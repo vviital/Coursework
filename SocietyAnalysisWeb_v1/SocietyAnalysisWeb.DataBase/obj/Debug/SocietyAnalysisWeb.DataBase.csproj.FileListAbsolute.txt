@@ -1,0 +1,12 @@
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\obj\Debug\SocietyAnalysisWeb.DataBase.csprojResolveAssemblyReference.cache
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\SocietyAnalysisWeb.DataBase.dll.config
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\SocietyAnalysisWeb.DataBase.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\SocietyAnalysisWeb.DataBase.pdb
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\EntityFramework.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\SocietyAnalysisWeb.DataModel.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\SocietyAnalysisWeb.DataModel.pdb
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\EntityFramework.xml
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\obj\Debug\SocietyAnalysisWeb.DataBase.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataBase\obj\Debug\SocietyAnalysisWeb.DataBase.pdb
