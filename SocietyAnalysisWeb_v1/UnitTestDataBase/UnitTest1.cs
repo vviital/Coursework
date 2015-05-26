@@ -184,8 +184,14 @@ namespace UnitTestDataBase
 
                 List<Country> allCountries = countryRepository.GetAll().ToList();
 
-
-
+                foreach (var _person in allPersons)
+                {
+                    Console.WriteLine(_person.FirstName + " " + _person.Surname);
+                }
+                foreach (var _country in allCountries)
+                {
+                    Console.WriteLine(_country.CountryName);
+                }
             }
         }
     }
