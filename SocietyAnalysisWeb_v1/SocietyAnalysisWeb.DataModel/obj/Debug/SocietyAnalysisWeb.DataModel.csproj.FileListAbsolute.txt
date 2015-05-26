@@ -1,0 +1,5 @@
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataModel\bin\Debug\SocietyAnalysisWeb.DataModel.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataModel\bin\Debug\SocietyAnalysisWeb.DataModel.pdb
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataModel\obj\Debug\SocietyAnalysisWeb.DataModel.csprojResolveAssemblyReference.cache
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataModel\obj\Debug\SocietyAnalysisWeb.DataModel.dll
+D:\CourseWork\Coursework\SocietyAnalysisWeb_v1\SocietyAnalysisWeb.DataModel\obj\Debug\SocietyAnalysisWeb.DataModel.pdb
