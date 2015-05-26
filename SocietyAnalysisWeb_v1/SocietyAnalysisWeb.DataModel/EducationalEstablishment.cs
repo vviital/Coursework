@@ -14,7 +14,7 @@ namespace SocietyAnalysisWeb.DataModel
 
         public string WebSite { get; set; }
 
-        public virtual Country Country { get; set; }
+        public virtual City City { get; set; }
 
         public virtual List<Education> Educations { get; set; }
     }

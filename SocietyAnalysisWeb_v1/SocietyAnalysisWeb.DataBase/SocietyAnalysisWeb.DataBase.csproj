@@ -46,6 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\CityConfiguration.cs" />
+    <Compile Include="Configuration\CompanyConfiguration.cs" />
+    <Compile Include="Configuration\CountryConfiguration.cs" />
+    <Compile Include="Configuration\EducationalEstablishmentRepositoryConfiguration.cs" />
+    <Compile Include="Configuration\EducationConfiguration.cs" />
+    <Compile Include="Configuration\JobConfiguration.cs" />
+    <Compile Include="Configuration\LanguageConfiguration.cs" />
+    <Compile Include="Configuration\LivingPlaceConfiguration.cs" />
+    <Compile Include="Configuration\OwnershipConfiguration.cs" />
+    <Compile Include="Configuration\PersonConfiguration.cs" />
+    <Compile Include="Configuration\VisitConfiguration.cs" />
     <Compile Include="Repository\CityRepository.cs" />
     <Compile Include="Repository\CompanyRepository.cs" />
     <Compile Include="Repository\CountryRepository.cs" />
@@ -65,9 +76,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Configuration\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\SocietyAnalysisWeb.DataModel\SocietyAnalysisWeb.DataModel.csproj">
       <Project>{0df290a7-95fb-4f8d-b517-1ca397b48aeb}</Project>
