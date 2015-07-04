@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using SocietyAnalysisWeb.DataModel;
@@ -33,8 +34,8 @@ namespace SocietyAnalysisWeb.DataBase
 
         public DbSet<LivingPlace> LivingPlaces { get; set; }
 
-        public SocietyContext()
-            : base("connectionString")
+        public SocietyContext(string connectionString)
+            : base(connectionString)
         {
             
         }

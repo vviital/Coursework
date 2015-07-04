@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DF290A7-95FB-4F8D-B517-1CA397B48AEB}</ProjectGuid>
+    <ProjectGuid>{2AD74536-BF2E-4E82-B938-274A3CCFED35}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SocietyAnalysisWeb.DataModel</RootNamespace>

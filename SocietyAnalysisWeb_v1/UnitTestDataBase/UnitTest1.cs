@@ -169,20 +169,20 @@ namespace UnitTestDataBase
 
             job.Company = company;
 
-            using (var context = new SocietyContext())
+            
             {
-                BaseRepository<Person> repository = new PersonRepository(context);
-                BaseRepository<Country> countryRepository = new CountryRepository(context);
+                UnitOfWork unitOfWork = new UnitOfWork("connectionString");
 
-                if (repository.GetAll() == null || repository.GetAll().Count() == 0)
+
+                if (unitOfWork.Persons.GetAll() == null || unitOfWork.Persons.GetAll().Count() == 0)
                 {
-                    repository.Add(person);
-                    repository.Save();
+                    unitOfWork.Persons.Add(person);
+                    unitOfWork.Persons.Save();
                 }
 
-                List<Person> allPersons = repository.GetAll().ToList();
+                List<Person> allPersons = unitOfWork.Persons.GetAll().ToList();
 
-                List<Country> allCountries = countryRepository.GetAll().ToList();
+                List<Country> allCountries = unitOfWork.Countries.GetAll().ToList();
 
                 foreach (var _person in allPersons)
                 {
