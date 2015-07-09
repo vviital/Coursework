@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SocietyAnalysisWeb.DataModelDTO.PersonDTO>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Survey form";
+}
+
+<div class="row">
+    <div class="col-md-4" style="width: 90%">
+        <br/>
+        <h2>Получить статистическую информацию</h2>
+        <p>
+            В данном разделе Вы можете выбрать, какая статистическая информация Вас интересует больше. Вам на выбор будет предложен ряд категорий, каждая из которых представлена таблицей, которая показывает процентное соотношение людей участвовших в анкетировании и выбравших данный пункт.
+        </p>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/AgeStatistic" style="width: 90%; margin-left: 5%">Просмотреть статистику по возрасту &raquo;</a>
+        </p>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/EducationStatistic" style="width: 90%; margin-left: 5%">Просмотреть статистику по учреждениям образования &raquo;</a>
+        </p>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/NationalityStatistic" style="width: 90%; margin-left: 5%">Просмотреть статистику по национальностям &raquo;</a>
+        </p>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/RaceStatistic" style="width: 90%; margin-left: 5%">Просмотреть статистику по расам &raquo;</a>
+        </p>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/ReligionStatistic" style="width: 90%; margin-left: 5%">Просмотреть статистику по религиям &raquo;</a>
+        </p>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/SexStatistic" style="width: 90%; margin-left: 5%">Просмотреть статистику по полам &raquo;</a>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+        <p>
+            <a class="btn btn-default" href="http://localhost:60746/QuestionnaireMain/Create" style="width: 90%; margin-left: 5%">Заполнить анкету &raquo;</a>
+        </p>
+    </div>
+</div>

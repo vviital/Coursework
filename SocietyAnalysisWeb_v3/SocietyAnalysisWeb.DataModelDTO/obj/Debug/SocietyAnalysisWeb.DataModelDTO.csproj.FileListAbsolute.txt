@@ -1,0 +1,11 @@
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\SocietyAnalysisWeb.DataModelDTO.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\SocietyAnalysisWeb.DataModelDTO.pdb
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\SocietyAnalysisWeb.DataBase.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\SocietyAnalysisWeb.DataModel.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\EntityFramework.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\SocietyAnalysisWeb.DataBase.pdb
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\SocietyAnalysisWeb.DataModel.pdb
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\bin\Debug\EntityFramework.xml
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\obj\Debug\SocietyAnalysisWeb.DataModelDTO.csprojResolveAssemblyReference.cache
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\obj\Debug\SocietyAnalysisWeb.DataModelDTO.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModelDTO\obj\Debug\SocietyAnalysisWeb.DataModelDTO.pdb

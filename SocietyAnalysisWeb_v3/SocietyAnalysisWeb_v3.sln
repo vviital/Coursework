@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyAnalysisWeb_v3", "SocietyAnalysisWeb_v3\SocietyAnalysisWeb_v3.csproj", "{C78A3BF5-350A-4624-A229-639BEEDB8A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{C3920B0A-75B2-48B1-9BB8-1D798732E0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyAnalysisWeb.DataBase", "SocietyAnalysisWeb.DataBase\SocietyAnalysisWeb.DataBase.csproj", "{04E4600E-ACD7-4285-9B4E-D9CCDA50A405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyAnalysisWeb.DataModel", "SocietyAnalysisWeb.DataModel\SocietyAnalysisWeb.DataModel.csproj", "{DF0691E2-7872-409C-ACEE-D94B68946263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{36DA6471-6069-40D7-911D-05F5A75A3F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{9E23E354-6D1E-44DB-9F04-F3B4A8F432DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic Layer", "Business Logic Layer", "{13E1072B-CC03-47CD-AA03-C60A5D727D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocietyAnalysisWeb.DataModelDTO", "SocietyAnalysisWeb.DataModelDTO\SocietyAnalysisWeb.DataModelDTO.csproj", "{A9E05675-5B4A-4C51-8C97-2A3C8A46ADEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D3D80326-73A3-42AD-B5E4-431DC0C208AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C78A3BF5-350A-4624-A229-639BEEDB8A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78A3BF5-350A-4624-A229-639BEEDB8A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78A3BF5-350A-4624-A229-639BEEDB8A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78A3BF5-350A-4624-A229-639BEEDB8A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E4600E-ACD7-4285-9B4E-D9CCDA50A405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E4600E-ACD7-4285-9B4E-D9CCDA50A405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E4600E-ACD7-4285-9B4E-D9CCDA50A405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E4600E-ACD7-4285-9B4E-D9CCDA50A405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0691E2-7872-409C-ACEE-D94B68946263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0691E2-7872-409C-ACEE-D94B68946263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0691E2-7872-409C-ACEE-D94B68946263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0691E2-7872-409C-ACEE-D94B68946263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E23E354-6D1E-44DB-9F04-F3B4A8F432DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E23E354-6D1E-44DB-9F04-F3B4A8F432DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E23E354-6D1E-44DB-9F04-F3B4A8F432DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E23E354-6D1E-44DB-9F04-F3B4A8F432DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E05675-5B4A-4C51-8C97-2A3C8A46ADEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E05675-5B4A-4C51-8C97-2A3C8A46ADEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E05675-5B4A-4C51-8C97-2A3C8A46ADEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E05675-5B4A-4C51-8C97-2A3C8A46ADEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D80326-73A3-42AD-B5E4-431DC0C208AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D80326-73A3-42AD-B5E4-431DC0C208AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D80326-73A3-42AD-B5E4-431DC0C208AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D80326-73A3-42AD-B5E4-431DC0C208AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04E4600E-ACD7-4285-9B4E-D9CCDA50A405} = {C3920B0A-75B2-48B1-9BB8-1D798732E0D8}
+		{DF0691E2-7872-409C-ACEE-D94B68946263} = {C3920B0A-75B2-48B1-9BB8-1D798732E0D8}
+		{9E23E354-6D1E-44DB-9F04-F3B4A8F432DC} = {36DA6471-6069-40D7-911D-05F5A75A3F53}
+		{A9E05675-5B4A-4C51-8C97-2A3C8A46ADEA} = {13E1072B-CC03-47CD-AA03-C60A5D727D42}
+		{D3D80326-73A3-42AD-B5E4-431DC0C208AF} = {13E1072B-CC03-47CD-AA03-C60A5D727D42}
+	EndGlobalSection
+EndGlobal

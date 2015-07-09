@@ -1,0 +1,30 @@
+﻿@model Services.Support.StatisticalData
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+<table border="2px">
+    <tr>
+        <th border="2px" style="width: 7%"></th>
+        @for (int i = 0; i < Model.AgesStatistic[0].Count(); ++i)
+        {
+            <th border="2px" style="width: 7%">@(i * 10) - @(i * 10 + 10)</th>
+        }
+    </tr>
+    <tr>
+        <th border="2px" style="width: 7%">Мужчины</th>
+        @for (int i = 0; i < Model.AgesStatistic[0].Count(); ++i)
+        {
+            <th border="2px" style="width: 7%">@Model.AgesStatistic[0][i] %</th>
+        }
+    </tr>
+    <tr>
+        <th border="2px" style="width: 7%">Женщины</th>
+        @for (int i = 0; i < Model.AgesStatistic[1].Count(); ++i)
+        {
+            <th border="2px" style="width: 7%">@Model.AgesStatistic[1][i] %</th>
+        }
+    </tr>
+</table>

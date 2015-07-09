@@ -1,0 +1,4 @@
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModel\bin\Debug\SocietyAnalysisWeb.DataModel.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModel\bin\Debug\SocietyAnalysisWeb.DataModel.pdb
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModel\obj\Debug\SocietyAnalysisWeb.DataModel.dll
+D:\CourseWork\Курсовая\SocietyAnalysisWeb_v3\SocietyAnalysisWeb.DataModel\obj\Debug\SocietyAnalysisWeb.DataModel.pdb

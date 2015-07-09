@@ -1,0 +1,19 @@
+﻿@model Services.Support.StatisticalData
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+<table border ="2px" style="width: 100%">
+    <tr>
+        <th border="2px" style="width: 50%">Мужчины</th>
+        <th border="2px" style="width: 50%">Женщины</th>
+</tr>
+    <tr>
+        <th border="2px" style="width: 50%">@Model.MalePercentage %</th>
+        <th border="2px" style="width: 50%">@Model.FemalePercentage %</th>
+</tr>
+</table>
+
+

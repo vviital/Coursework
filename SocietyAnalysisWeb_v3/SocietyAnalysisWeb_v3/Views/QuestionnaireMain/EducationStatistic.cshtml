@@ -1,0 +1,26 @@
+﻿@model Services.Support.StatisticalData
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+<table border="2px">
+    <tr>
+        <th border="2px" style="width: 7%"></th>
+        @for (int i = 0; i < 12; ++i)
+        {
+            <th border="2px" style="width: 7%">@(i * 10) - @(i * 10 + 10) лет</th>
+        }
+    </tr>
+    @foreach (var item in Model.RaceStatistic)
+    {
+        <tr>
+            <th border="2px" style="width: 7%">@item.Key</th>
+            @foreach (var data in item.Value)
+            {
+                <th border="2px" style="width: 7%">@data</th>
+            }
+        </tr>
+    }
+</table>
